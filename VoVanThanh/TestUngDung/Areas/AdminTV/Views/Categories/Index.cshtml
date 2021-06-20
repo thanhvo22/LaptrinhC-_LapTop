@@ -1,0 +1,42 @@
+﻿@model IEnumerable<ModelEF.EF.Category>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/AdminTV/Views/Shared/_Layout.cshtml";
+}
+
+@section header{
+    <i class="fa fa-user"></i>&nbsp; Quản Lí Người dùng
+}
+<p>
+    @Html.ActionLink("Tạo Mới", "Create", "User", new { @class = "btn btn-danger" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Tên Hãng
+        </th>
+        <th>
+            Loại 
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.ActionLink("Chỉnh Sửa", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Chi Tiết", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Xóa", "Delete", new { id = item.ID })
+            </td>
+        </tr>
+    }
+
+</table>

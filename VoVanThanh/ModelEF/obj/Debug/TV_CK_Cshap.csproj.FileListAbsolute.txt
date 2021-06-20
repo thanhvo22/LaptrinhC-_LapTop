@@ -1,0 +1,12 @@
+C:\Users\ThanhVo\source\repos\TV_CK_Cshap\TV_CK_Cshap\bin\Debug\TV_CK_Cshap.dll.config
+C:\Users\ThanhVo\source\repos\TV_CK_Cshap\TV_CK_Cshap\bin\Debug\TV_CK_Cshap.dll
+C:\Users\ThanhVo\source\repos\TV_CK_Cshap\TV_CK_Cshap\bin\Debug\TV_CK_Cshap.pdb
+C:\Users\ThanhVo\source\repos\TV_CK_Cshap\TV_CK_Cshap\bin\Debug\EntityFramework.dll
+C:\Users\ThanhVo\source\repos\TV_CK_Cshap\TV_CK_Cshap\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ThanhVo\source\repos\TV_CK_Cshap\TV_CK_Cshap\bin\Debug\EntityFramework.xml
+C:\Users\ThanhVo\source\repos\TV_CK_Cshap\TV_CK_Cshap\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ThanhVo\source\repos\TV_CK_Cshap\TV_CK_Cshap\obj\Debug\TV_CK_Cshap.csprojAssemblyReference.cache
+C:\Users\ThanhVo\source\repos\TV_CK_Cshap\TV_CK_Cshap\obj\Debug\TV_CK_Cshap.csproj.CoreCompileInputs.cache
+C:\Users\ThanhVo\source\repos\TV_CK_Cshap\TV_CK_Cshap\obj\Debug\TV_CK_Cshap.csproj.CopyComplete
+C:\Users\ThanhVo\source\repos\TV_CK_Cshap\TV_CK_Cshap\obj\Debug\TV_CK_Cshap.dll
+C:\Users\ThanhVo\source\repos\TV_CK_Cshap\TV_CK_Cshap\obj\Debug\TV_CK_Cshap.pdb

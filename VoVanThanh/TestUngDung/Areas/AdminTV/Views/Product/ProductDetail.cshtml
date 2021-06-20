@@ -1,0 +1,81 @@
+﻿@model ModelEF.EF.Product
+
+@{
+    ViewBag.Title = "ProductDetail";
+    ViewBag.Heading = "Chi tiết sản phẩm";
+    Layout = "~/Areas/AdminTV/Views/Shared/_Layout.cshtml";
+}
+
+@section header{
+    <i class="fa fa-user"></i>&nbsp; Chi tiết Của Sản Phẩm
+}
+<div>
+    <h4>Sản Phẩm</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Product_Type
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+
+        <dt>
+            Tên Sản Phẩm
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            Giá 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UnitCost)
+        </dd>
+
+        <dt>
+            Số Lượng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Image)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Image)
+        </dd>
+
+        <dt>
+            Mô Tả
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        @*<dt>
+            Trạng Thái
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>*@
+
+    </dl>
+</div>
+<!--<p>-->
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |*@
+    <!--@Html.ActionLink("Quay Lại", "Index", "ProductDetail", new { @class = "btn btn-primary" })
+</p>-->
+<div class="form-horizontal">
+
+    @Html.ActionLink("Quay Lại", "Index", "ProductDetail", new { @class = "btn btn-primary" })
+</div>
